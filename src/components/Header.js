@@ -51,8 +51,23 @@ function Header() {
           </div>
         </div>
       </div>
+
       {/* Bottom Nav */}
-      <div></div>
+      <div className="flex items-center space-x-3 p-2 pl-6 bg-amazon_blue-light text-white text-sm">
+        <p className="link flex items-center">
+          <MenuIcon className="h-6 mr-1" />
+          All
+        </p>
+        <p className="lnik">Prime Video</p>
+        <p className="lnik">Amazon Bussiness</p>
+        <p className="lnik">Today's Deals</p>
+        <p className="link hidden lg:inline-flex">Electronics</p>
+        <p className="link hidden lg:inline-flex">Food & grocery</p>
+        <p className="link hidden lg:inline-flex">Prime</p>
+        <p className="link hidden lg:inline-flex">Buy Again</p>
+        <p className="link hidden lg:inline-flex">Shopper Toolkit</p>
+        <p className="link hidden lg:inline-flex">health & Personal care</p>
+      </div>
     </header>
   );
 }
